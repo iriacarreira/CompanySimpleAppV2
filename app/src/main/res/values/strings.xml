@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Marvel Company Inc</string>
+    <string name="text_company">We are here to help</string>
+    <string name="hero_one">Spiderman</string>
+    <string name="hero_two">Ironman</string>
+    <string name="hero_three">Lobezno</string>
+    <string name="hero_four">Thor</string>
+    <string name="phone_number">+44 0000 0000</string>
+    <string name="email">marvel@awesome.com</string>
+    <string name="time">9:00AM - 5:30PM</string>
+</resources>

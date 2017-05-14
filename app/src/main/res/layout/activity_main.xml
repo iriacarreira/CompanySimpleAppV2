@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorAccent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/main_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/marvel"
+            android:layout_gravity="start"
+            android:id="@+id/marvel"/>
+
+        <TextView
+           style="@style/main_text"
+            android:id="@+id/text"
+            android:text="@string/text_company"
+
+            />
+        <TextView
+            style="@style/hero"
+            android:id="@+id/spiderman"
+            android:text="@string/hero_one"
+            android:drawableTop="@drawable/spiderman"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@+id/Lobezno"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/marginLarge"
+
+
+            />
+
+        <TextView
+            style="@style/hero"
+            android:id="@+id/ironman"
+            android:text="@string/hero_two"
+            android:drawableTop="@drawable/ironman"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/thor"
+            android:layout_marginRight="@dimen/marginLarge"
+
+
+            />
+
+        <TextView
+            style="@style/hero"
+            android:id="@+id/thor"
+            android:text="@string/hero_four"
+            android:drawableTop="@drawable/thor"
+            android:layout_below="@+id/text"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/marginLarge"
+
+
+            />
+        <TextView
+            style="@style/hero"
+
+            android:id="@+id/Lobezno"
+            android:text='@string/hero_three'
+            android:drawableTop="@drawable/lobezno"
+            android:layout_alignBottom="@+id/ironman"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/marginLarge"
+
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/Lobezno"
+            android:padding="@dimen/marginLarge">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"
+                android:drawableLeft="@drawable/phone"
+                android:textSize="@dimen/textSize2"
+                android:layout_margin="@dimen/marginSmall"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:drawableLeft="@drawable/email"
+                android:textSize="@dimen/textSize2"
+                android:layout_marginLeft="@dimen/marginSmall"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:drawableLeft="@drawable/clock"
+                android:textSize="@dimen/textSize2"
+                android:layout_marginLeft="@dimen/marginSmall"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+
+
+                />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
